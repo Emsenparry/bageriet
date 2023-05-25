@@ -30,7 +30,7 @@ const MyCarousel = () => {
     </nav>
         </div>
         <div className="div3">
-          <h1>vi elsker at lave brød</h1>
+          <h1>Vi elsker at lave brød</h1>
         </div>
       </div>
     </>
