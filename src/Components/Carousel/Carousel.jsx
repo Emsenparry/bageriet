@@ -18,6 +18,20 @@ const MyCarousel = () => {
             <img src={require("../../Images/slide3.jpg")} alt="Image3" />
           </div>
         </Carousel>
+        <div className="div2">
+        <nav className="nav-bar">
+        <ul className="nav-list">
+        <li><a href="/">Forside</a></li>
+        <li><a href="/produkter">Produkter</a></li>
+        <h2 href="/">bageriet</h2>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </nav>
+        </div>
+        <div className="div3">
+          <h1>vi elsker at lave brød</h1>
+        </div>
       </div>
     </>
   );
