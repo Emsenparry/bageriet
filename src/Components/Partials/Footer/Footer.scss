@@ -5,7 +5,7 @@
         display: flex;
         justify-content: center;
         position: relative;
-        top: 8vh;
+        top: 3.5vh;
         .circle {
             background-color: whitesmoke;
             width: 3.1em;
@@ -18,12 +18,14 @@
     }
 
   h3 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
     color: white;
     font-family: "Lobster", sans-serif;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 0.5em;
+    margin: 0;
   }
 
   .container {
