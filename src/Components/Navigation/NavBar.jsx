@@ -1,14 +1,14 @@
 import React from 'react';
-// import './NavBar.scss'
+import './NavBar.scss'
 
 
 const NavBar = () => {
   return (
     <nav className="nav-bar">
-      <ul className="nav-list">
+        <ul className="nav-list">
         <li><a href="/">Forside</a></li>
         <li><a href="/produkter">Produkter</a></li>
-        <h1 href="/">bageriet</h1>
+        <h2 href="/">bageriet</h2>
         <li><a href="/kontakt">Kontakt</a></li>
         <li><a href="/login">Login</a></li>
       </ul>

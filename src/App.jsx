@@ -1,10 +1,11 @@
-import Header from "./Components/Partials/Header/Header";
-
+import Footer from './Components/Partials/Footer/Footer';
+import Home from './Components/Partials/Header/Header'
 
 function App() {
   return (
     <>
-    <Header />
+    <Home />
+    <Footer />
     </>
   );
 }
