@@ -1,7 +1,7 @@
 import React from 'react'
 import { MyCarousel } from '../../Carousel/Carousel'
 import News from '../../News/News'
-import { TextAreaOne } from '../../TextArea/TextArea'
+import { TextAreaOne, TextAreaTwo } from '../../TextArea/TextArea'
 import Newsletter from '../../Newsletter/Newsletter'
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
     <TextAreaOne />
     <News />
     <Newsletter />
+    <TextAreaTwo />
     </>
   )
 }
