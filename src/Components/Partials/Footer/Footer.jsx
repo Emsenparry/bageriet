@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='arrowContainer'>
         <div className='circle'>
         <a href="#top">
-            <IoIosArrowUp size={70} color="black" />
+            <IoIosArrowUp size={40} color="black" />
           </a>
         </div>
         </div>
