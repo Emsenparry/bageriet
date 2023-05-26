@@ -1,23 +1,35 @@
-@use '../Partials/Fonts/Fonts.scss';
+@use "../Partials/Fonts/Fonts.scss";
 
 .centered-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 2em 0;
-    h3{
-        font-family: 'Lobster', sans-serif;
-        font-size: 2.8em;
-        color: #414141;
-    }
-    p{
-        margin: 0;
-        color: #727272;
-        font-family: 'Open-Sans', sans-serif;
-        font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2em 0;
+  h3 {
+    font-family: "Lobster", sans-serif;
+    font-size: 2.8em;
+    color: #414141;
+  }
+  p {
+    margin: 0;
+    color: #727272;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 1.2em;
+    line-height: 2em;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .centered-content {
+    h3 {
+      font-size: 2.4em;
+    }
+
+    p {
+      font-size: 0.8em;
+      line-height: 1.5em;
     }
   }
-  
+}

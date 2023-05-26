@@ -5,6 +5,8 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 0 3em;
   margin: 0 7em 0 7em;
+  padding-top: 4em;
+  padding-bottom: 6em;
 }
 
 .articleNews {
@@ -15,7 +17,7 @@
 .articleNews img {
   border-radius: 50%;
   max-width: 100%;
-  width: 40%;
+  width: 60%;
   height: auto;
 }
 
