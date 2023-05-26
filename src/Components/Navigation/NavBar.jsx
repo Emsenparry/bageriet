@@ -1,16 +1,17 @@
 import React from 'react';
 import './NavBar.scss'
+import { NavLink } from 'react-router-dom';
 
 
 const NavBar = () => {
   return (
     <nav className="nav-bar">
         <ul className="nav-list">
-        <li><a href="/">Forside</a></li>
-        <li><a href="/products">Produkter</a></li>
-        <h2 href="/">bageriet</h2>
-        <li><a href="/contact">Kontakt</a></li>
-        <li><a href="/login">Login</a></li>
+        <li><NavLink to="/">Forside</NavLink></li>
+        <li><NavLink to="/products">Produkter</NavLink></li>
+        <h2><NavLink to="/">bageriet</NavLink></h2>
+        <li><NavLink to="/contact">Kontakt</NavLink></li>
+        <li><NavLink to="/login">Login</NavLink></li>
       </ul>
     </nav>
   );
