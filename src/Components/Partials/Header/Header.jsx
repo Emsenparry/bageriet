@@ -1,9 +1,9 @@
 import React from 'react'
-import MyCarousel from '../../Carousel/Carousel'
 import './Header.scss'
+import NavBar from '../../Navigation/NavBar'
 
 const Header = () => {
-  return <MyCarousel />
+  return <NavBar />
 }
 
 export default Header

@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../Partials/Header/Header'
+import { MyCarousel } from '../../Carousel/Carousel'
 import News from '../../Partials/News/News'
 
 const Home = () => {
   return (
     <>
-    <Header />
+    <MyCarousel />
     <News />
     </>
   )
