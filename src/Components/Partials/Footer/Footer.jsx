@@ -7,7 +7,9 @@ const Footer = () => {
     <footer className='mainFooter'>
         <div className='arrowContainer'>
         <div className='circle'>
-            <IoIosArrowUp size={70} />
+        <a href="#top">
+            <IoIosArrowUp size={70} color="black" />
+          </a>
         </div>
         </div>
         <div className='container'>
