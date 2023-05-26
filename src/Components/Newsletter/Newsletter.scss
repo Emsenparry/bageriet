@@ -8,13 +8,11 @@
 .newsletter-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-left: 10em;
 }
 
 .textContainer {
   padding-bottom: 3em;
-  text-align: center;
 }
 
 h3 {
@@ -32,13 +30,10 @@ p {
 
 .newsletter-form {
   margin-top: 2em;
-  display: flex;
-  justify-content: center;
 }
 
 .input-container {
   display: flex;
-  align-items: center;
 }
 
 .email-icon {
@@ -51,9 +46,8 @@ p {
 input[type="email"] {
   padding: 1em;
   border: none;
-  flex: 1;
+  flex: 0.7;
   box-sizing: border-box;
-  width: 100%;
 }
 
 button {
@@ -69,21 +63,27 @@ button {
 
 @media (max-width: 768px) {
   .newsletter-content {
-    h3 {
-      font-size: 2em;
-    }
-    p {
-      font-size: 0.7em;
-    }
-    .newsletter-form {
-      flex-direction: column;
-      align-items: center;
-    }
-    .newsletter-content {
-        padding: 1em;
-      }
-      .textContainer {
-        padding-bottom: 2em;
-      }
+    padding-left: 1em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-content {
+    padding: 1em;
+  }
+
+  .textContainer {
+    padding-bottom: 2em;
   }
 }
