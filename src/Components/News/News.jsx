@@ -7,7 +7,6 @@ const News = () => {
   const [news, setNews] = useState([]);
   useEffect(() => {
     axios.get(url).then((data) => {
-      console.log(data.data.items);
       setNews(data.data.items.slice(0, 3));
     });
   }, []);
@@ -17,7 +16,7 @@ const News = () => {
       {news.map((data) => {
         return (
           <figure className="articleNews" key={data.id}>
-            <img src={data.image} alt="img_news" />
+            <img src={data.image.fullpath} alt="img_news" />
             <h2>{data.title}</h2>
             <p>{data.teaser}</p>
           </figure>

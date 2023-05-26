@@ -1,0 +1,45 @@
+.breadContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .breadSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .breadDiv {
+    margin-bottom: 1rem;
+  }
+  
+  .comments {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .comments p {
+    margin-right: 0.5em;
+    color: black;
+  }
+  
+  .seeMoreBtn {
+    margin-top: auto;
+  }
+
+  p{
+    color: black;
+  }
+  
+  .breadDiv img {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  

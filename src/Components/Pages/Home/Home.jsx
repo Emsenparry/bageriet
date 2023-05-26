@@ -3,6 +3,7 @@ import { MyCarousel } from '../../Carousel/Carousel'
 import News from '../../News/News'
 import { TextAreaOne, TextAreaTwo } from '../../TextArea/TextArea'
 import Newsletter from '../../Newsletter/Newsletter'
+import Bread from '../../BreadSection/BreadSection'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <News />
     <Newsletter />
     <TextAreaTwo />
+    <Bread />
     </>
   )
 }
