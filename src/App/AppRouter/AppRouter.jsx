@@ -8,10 +8,10 @@ import Login from "../../Components/Pages/Login/Login";
 const AppRouter = () => {
   return (
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="/products" element={<Products />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
-      <Route path="/login" element={<Login />}></Route>
+      <Route index path="/" element={<Home />} />
+      <Route path="/products" element={<Products />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };
